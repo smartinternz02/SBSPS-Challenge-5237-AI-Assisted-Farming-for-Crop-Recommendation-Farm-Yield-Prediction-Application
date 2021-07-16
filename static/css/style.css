@@ -1,0 +1,50 @@
+
+header{
+    text-align: center;
+    background-color: #0d6efd;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 500px;
+}
+
+body{
+    background-image: url("../cropbg.jpg");
+    background-repeat: no-repeat;
+}
+
+
+.form-group{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    display: flex;
+}
+
+label{
+    text-align: right;
+    color: white;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+    label{
+        text-align: left;
+    }
+}
+
+button{
+    margin-top: 5px
+}
+
+p{
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.val{
+    color: red;
+}

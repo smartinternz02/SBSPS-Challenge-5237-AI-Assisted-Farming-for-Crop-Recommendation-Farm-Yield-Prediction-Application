@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+    <title>Crop Recommendation AI</title>
+</head>
+<body>
+    <header class="mx-auto">
+        <div class="row justify-content-center">
+            <h3>Enter the details below:</h3>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row row-content align-items-center">
+            <form action="{{url_for('predict')}}" method="post" onchange="validate()" id="formId" class="mx-auto">
+                <div class="form-group row justify-content-center">
+                    <label for="temperature" class="col-xs-offset-0 offset-2 col-12 col-md-2 col-form-label">Temperature</label>
+                    <div class="col-12 col-md-3 col-xs-3">
+                        <input type="text" class="form-control" id="temperature" name="temperature" placeholder="Enter the Temperature(&#176C)" required>
+                    </div>
+                    <div class="col-12 col-md-3 val" id="tempV"></div>
+                </div>
+                <div class="form-group row justify-content-center">
+                    <label for="humidity" class="col-xs-offset-0 offset-2 col-12 col-md-2 col-form-label">Humidity</label>
+                    <div class="col-12 col-md-3">
+                        <input type="text" class="form-control" id="humidity" name="humidity" placeholder="Enter Humidity level" required>
+                    </div>
+                    <div class="col-12 col-md-3 val" id="humV"></div>
+                </div>
+                <div class="form-group row justify-content-center">
+                    <label for="ph" class="col-xs-offset-0 offset-2 col-12 col-md-2 col-form-label">pH</label>
+                    <div class="col-12 col-md-3">
+                        <input type="text" class="form-control" id="ph" name="ph" placeholder="Enter soil pH" required>
+                    </div>
+                    <div class="col-12 col-md-3 val" id="phV"></div>
+                </div>
+                <div class="form-group row justify-content-center">
+                    <label for="rainfall" class="col-xs-offset-0 offset-2 col-12 col-md-2 col-form-label">Rainfall</label>
+                    <div class="col-12 col-md-3">
+                        <input type="text" class="form-control" id="rainfall" name="rainfall" placeholder="Enter average Rainfall" required>
+                    </div>
+                    <div class="col-12 col-md-3 val" id="rainV"></div>
+                </div>
+                <div class="form-group row justify-content-center">
+                    <label for="state" class="offset-2 col-12 col-md-2 col-form-label">State</label>
+                    <div class="col-12 col-md-3">
+                        <select class="form-control" id="state" name="state" placeholder="Select State">
+                            <option>Andhra Pradesh</option>
+                            <option>Assam</option>
+                            <option>Bihar</option>
+                            <option>Chhattisgarh</option>
+                            <option>Gujarat</option>
+                            <option>Haryana</option>
+                            <option>Himachal Pradesh</option>
+                            <option>Jharkhand</option>
+                            <option>Karnataka</option>
+                            <option>Kerala</option>
+                            <option>Madhya Pradesh</option>
+                            <option>Maharashtra</option>
+                            <option>Odisha</option>
+                            <option>Punjab</option>
+                            <option>Rajasthan</option>
+                            <option>Tamil Nadu</option>
+                            <option>Uttar Pradesh</option>
+                            <option>Uttarakhand</option>
+                            <option>West Bengal</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-3"></div>
+                </div>
+                <div class="form-group row justify-content-center">
+                    <div class="offset-3 col-md-5">
+                        <button type="submit" class="btn btn-primary" id="Button">Submit</button>
+                    </div>
+                </div>
+            </form><br>
+        </div>
+        <header class="mx-auto d-flex">
+            <div class="row justify-content-center">
+                <h3>Estimation Results will appear below</h3>
+            </div>
+        </header>
+
+        <div class="row">
+            <div class="col-12 mx-auto col-md-3 text-center">
+                <p>{{ prediction_text }}<br>
+                {{ yield_text }}<br>
+                {{ cost_text }}</p>
+            </div>
+        </div>
+    </div>
+    <script src="{{url_for('static',filename='js/jquery.slim.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/popper.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/validation.js')}}"></script>
+</body>
+</html>

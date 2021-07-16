@@ -1,0 +1,143 @@
+label,state,Cost of cultivation (`/Hectare) C2,yield (Quintal/ Hectare)
+rice,Andhra Pradesh,53108.28,58.63
+rice,Assam,37430.31,32.82
+rice,Bihar,29791.17,27.49
+rice,Chhattisgarh,35159.57,31.88
+rice,Gujarat,43128.46,43.17
+rice,Haryana,47710.75,52.27
+rice,Himachal Pradesh,28308.69,20.34
+rice,Jharkhand,25948.1,21.77
+rice,Karnataka,52392.87,51.88
+rice,Kerala,59326.92,43.48
+rice,Madhya Pradesh,31688.24,22.02
+rice,Maharashtra,58449.49,24
+rice,Odisha,44710.2,35.28
+rice,Punjab,41137.38,69.89
+rice,Tamil Nadu,55450.91,49.13
+rice,Uttar Pradesh,41777.09,35.85
+rice,Uttarakhand,31717.91,47.24
+rice,West Bengal,55713.5,44.91
+wheat,Bihar,29056.27,26.77
+wheat,Gujarat,31437.22,30.88
+wheat,Haryana,34837.64,43.09
+wheat,Himachal Pradesh,23868.58,13.17
+wheat,Jharkhand,19984.04,16.18
+wheat,Karnataka,22662.21,6.89
+wheat,Madhya Pradesh,26917.78,30.6
+wheat,Maharashtra,39627.62,24.83
+wheat,Punjab,29745.25,46.53
+wheat,Rajasthan,38783.71,37.54
+wheat,Uttar Pradesh,36056.6,31.99
+wheat,Uttarakhand,30028.83,32.86
+wheat,West Bengal,37254.2,22.85
+maize,Andhra Pradesh,43025.34,51.28
+maize,Bihar,30252.68,32.56
+maize,Gujarat,36451.42,13.28
+maize,Himachal Pradesh,27320.83,13.67
+maize,Jharkhand,29460.42,34.09
+maize,Karnataka,35269.82,32.42
+maize,Madhya Pradesh,27509.92,17.74
+maize,Maharashtra,56845.46,43
+maize,Odisha,40254.12,37.94
+maize,Punjab,39755.96,35.46
+maize,Rajasthan,36542.67,17.14
+maize,Tamil Nadu,65464.97,59.84
+maize,Uttar Pradesh,28553.18,22.93
+sorghum,Andhra Pradesh,20671.52,19.65
+sorghum,Karnataka,15526.75,5.98
+sorghum,Madhya Pradesh,19969.54,21.4
+sorghum,Maharashtra,24175.76,8
+sorghum,Rajasthan,19232.39,4.93
+sorghum,Tamil Nadu,21632.03,8.96
+millet,Gujarat,37425.6,25.3
+millet,Haryana,27556.91,16.37
+millet,Maharashtra,33379.06,13.17
+millet,Rajasthan,17782.7,7.58
+millet,Uttar Pradesh,23364.3,24.61
+barley,Rajasthan,33862.12,36.58
+barley,Uttar Pradesh,21656.58,24.2
+ragi,Karnataka,46934.09,16.89
+ragi,Uttarakhand,21668.3,18.78
+redgram,Andhra Pradesh,26236.58,4.91
+redgram,Gujarat,34233.87,10.55
+redgram,Karnataka,26841.96,5.19
+redgram,Madhya Pradesh,25105.85,7.84
+redgram,Maharashtra,56971.09,14.08
+redgram,Odisha,14547.66,3.29
+redgram,Uttar Pradesh,25440.28,8.33
+gram,Andhra Pradesh,34335.22,9.88
+gram,Bihar,21810.31,15.72
+gram,Chhattisgarh,19678.13,5.66
+gram,Haryana,26386.24,14.23
+gram,Jharkhand,16849.84,11.12
+gram,Karnataka,20584.72,4.58
+gram,Madhya Pradesh,24722.97,11.65
+gram,Maharashtra,28490.56,8.82
+gram,Rajasthan,19893.63,7.81
+gram,Uttar Pradesh,24661.66,6.99
+blackgram,Andhra Pradesh,17796.62,9.37
+blackgram,Chhattisgarh,20365.56,2.13
+blackgram,Madhya Pradesh,21321.76,5.25
+blackgram,Maharashtra,27202.79,3.55
+blackgram,Odisha,14066.16,2.88
+blackgram,Tamil Nadu,25288.85,5.83
+blackgram,Uttar Pradesh,14154.65,2.16
+mungbean,Andhra Pradesh,20237.46,3.14
+mungbean,Gujarat,22218.03,5.99
+mungbean,Karnataka,14100.76,3.12
+mungbean,Maharashtra,27524.23,3.11
+mungbean,Odisha,13990.53,2.65
+mungbean,Rajasthan,16780.67,3.99
+lentil,Bihar,17263.59,9.87
+lentil,Madhya Pradesh,19785.25,10.11
+lentil,Uttar Pradesh,18971.77,4.34
+lentil,West Bengal,27090.87,11.36
+groundnut,Andhra Pradesh,42935.83,14.03
+groundnut,Gujarat,58373.6,18.54
+groundnut,Karnataka,41054.07,7.99
+groundnut,Maharashtra,71130.72,11.1
+groundnut,Odisha,39635.04,8.86
+groundnut,Rajasthan,38744.29,24.58
+groundnut,Tamil Nadu,58151.57,18.32
+sunflower,Andhra Pradesh,35749.51,9.44
+sunflower,Karnataka,19978.33,3.91
+safflower,Karnataka,11633.11,4.12
+safflower,Maharashtra,16669.26,4.34
+nigerseed,Chhattisgarh,20485.22,1.6
+nigerseed,Madhya Pradesh,16765.53,3.31
+nigerseed,Odisha,14153.49,2.32
+sesamum,Andhra Pradesh,23364.24,3.38
+sesamum,Gujarat,26824.75,6.06
+sesamum,Madhya Pradesh,18903.67,4.35
+sesamum,Odisha,18624.57,5.09
+sesamum,Uttar Pradesh,11373.19,2.7
+sesamum,Rajasthan,12285.67,1.99
+sesamum,West Bengal,26856.46,9.04
+sugarcane,Andhra Pradesh,120091.41,866.13
+sugarcane,Karnataka,66992.49,715.18
+sugarcane,Maharashtra,143014.45,946.02
+sugarcane,Tamil Nadu,138191.09,1025.52
+sugarcane,Uttar Pradesh,56859.32,542.88
+sugarcane,Uttarakhand,49746.68,457.31
+cotton,Andhra Pradesh,52788.39,14.52
+cotton,Gujarat,55081.77,18.24
+cotton,Haryana,43177.23,8.39
+cotton,Karnataka,44677.05,12.29
+cotton,Madhya Pradesh,62797.67,13.63
+cotton,Maharashtra,57649.84,16.29
+cotton,Odisha,47623.03,12.17
+cotton,Punjab,46048.58,6.97
+cotton,Rajasthan,49383.97,15.71
+cotton,Tamil Nadu,78018.51,24.68
+jute,Assam,57666.8,19.22
+jute,Bihar,19880.98,12.12
+jute,Odisha,52713.13,15.91
+jute,West Bengal,58133.31,25.24
+onion,Gujarat,101663.4,171.62
+onion,Karnataka,43003.59,80.11
+onion,Maharashtra,114759.09,244.85
+potato,Assam,106360.31,109.07
+potato,Bihar,62315.66,195.87
+potato,Himachal Pradesh,85159.89,111.64
+potato,Uttar Pradesh,71310.86,186.01
+potato,West Bengal,113603.08,244.92
